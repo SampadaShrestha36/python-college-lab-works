@@ -9,6 +9,6 @@ match n:
     case "*":
         print(f"The product is {a*b}")
     case "%":
-        print(f"The quotient is {a%b}")
+        print(f"The quotient is {a//b}")
     case other:
         print("Invalid operation")
